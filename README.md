@@ -18,14 +18,14 @@ A Python-based web scraper designed to extract game data from websites, process 
 
 ### Without Docker
 
-- **(Python 3.14)[https://www.python.org/downloads/release/python-3140/]**
+- **[Python 3.14](https://www.python.org/downloads/release/python-3140/)**
 - **pip**
 - **System dependencies** for Playwright
 
 ### With Docker
 
-- **(Docker)[https://docs.docker.com/get-started/get-docker/]**
-- **(Docker Compose)[https://docs.docker.com/compose/install/]**
+- **[Docker](https://docs.docker.com/get-started/get-docker/)**
+- **[Docker Compose](https://docs.docker.com/compose/install/)**
 
 ## Installation and Setup
 
