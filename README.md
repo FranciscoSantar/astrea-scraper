@@ -2,7 +2,14 @@
 
 ## Summary
 
-A Python-based web scraper designed to extract game data from websites, process and store game information in a SQLite database, download game images, and export data to CSV files. The scraper provides an interactive menu system for running different operations including web scraping, image processing, and data export.
+A Python-based web scraper designed to extract game data from this (website)[https://sandbox.oxylabs.io/], process and store it in a SQLite database, download and save game images, and display in the terminal the game data in CSV format for each category. 
+
+The scraper provides an interactive menu system to run single operations, including 
+  - Web scraping
+  - Image processing
+  - Data export 
+
+The menu also includes an option to run all operations sequentially.
 
 ## Technologies Used
 
@@ -20,7 +27,7 @@ A Python-based web scraper designed to extract game data from websites, process 
 
 - **[Python 3.14](https://www.python.org/downloads/release/python-3140/)**
 - **pip**
-- **System dependencies** for Playwright
+- System dependencies for Playwright
 
 ### With Docker
 
@@ -53,7 +60,7 @@ A Python-based web scraper designed to extract game data from websites, process 
    pip install --no-cache-dir -r requirements.txt
    ```
 
-4. **Install Playwright browsers:**
+4. **Install Playwright browser (Chromium):**
    ```bash
    playwright install chromium chromium-headless-shell
    ```
@@ -87,7 +94,7 @@ Once the application starts, you'll see an interactive menu with the following o
 
 1. **Run Scraper** - Start the web scraping process to collect game data
 2. **Download and Save Images** - Download game images and store them locally
-3. **Write Games Data to CSV per Category** - Export scraped data to CSV files
+3. **Write Games Data to CSV per Category** - Display game data in CSV format in the terminal, grouped and ordered by category
 4. **Run All Steps** - Execute all operations sequentially
 5. **Exit** - Close the application
 
