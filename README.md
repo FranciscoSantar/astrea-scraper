@@ -34,7 +34,7 @@ A Python-based web scraper designed to extract game data from websites, process 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/FranciscoSantar/astrea-scraper.git
-   cd games-scraper
+   cd astrea-scraper
    ```
 
 2. **Create a virtual environment:**
@@ -50,13 +50,12 @@ A Python-based web scraper designed to extract game data from websites, process 
 
 3. **Install Python dependencies:**
    ```bash
-   pip install -r requirements.txt
+   pip install --no-cache-dir -r requirements.txt
    ```
 
 4. **Install Playwright browsers:**
    ```bash
-   playwright install chromium
-   playwright install-deps chromium
+   playwright install chromium chromium-headless-shell
    ```
 
 5. **Run the scraper:**
