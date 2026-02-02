@@ -1,0 +1,11 @@
+services:
+  scraper:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/app/data
+
+volumes:
+  scraper_data:
+
