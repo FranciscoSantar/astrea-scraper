@@ -1,5 +1,5 @@
 services:
-  scraper:
+  astrea-scraper:
     build: 
       context: .
       dockerfile: Dockerfile
