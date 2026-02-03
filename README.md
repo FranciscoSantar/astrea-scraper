@@ -11,6 +11,8 @@ The scraper provides an interactive menu system to run single operations, includ
 
 The menu also includes an option to run all operations sequentially.
 
+Estimated time to complete all operations: **approximately 20 minutes.**
+
 ## Technologies Used
 
 - **Python 3.14** - Core programming language
@@ -97,4 +99,20 @@ Once the application starts, you'll see an interactive menu with the following o
 3. **Write Games Data to CSV per Category** - Display game data in CSV format in the terminal, grouped and ordered by category
 4. **Run All Steps** - Execute all operations sequentially
 5. **Exit** - Close the application
+
+## Output Data Structure
+
+After running the scraper and image download process, all data will be stored in the `data/` folder:
+
+### Database
+- **`data/games.db`** - SQLite database containing all scraped game data
+
+### Images
+- **`data/images/`** - Root directory for game images
+  - **`data/images/game_{game_id}/`** - Individual folder for each game 
+    - Each game folder contains 3 images in different resolutions:
+      - `{category_id}_{game_id}_100x100.jpg`
+      - `{category_id}_{game_id}_500x500.jpg`
+      - `{category_id}_{game_id}_2000x2000.jpg`
+
 
